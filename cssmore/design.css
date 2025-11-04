@@ -1,0 +1,231 @@
+ html, body{
+     margin: 0;
+     padding: 0;
+ }
+ @font-face{
+    font-family: "Roboto-Light";
+    src: url("../Font/Roboto-Light.ttf");
+}
+/* Box style*/
+ .kotakmerah{
+            margin-top:-200px;
+            margin-left:550px;
+            background:#e42217;
+            height: 200px;
+            width:200px;
+            font-family: "Roboto-Light";
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+         .kotakmerah img{
+            display:block;
+            margin : auto;
+        }
+        .kotakmerah:hover{
+             background:#79130d;
+        }
+
+        .kotakhijau{
+            margin-top:200px;
+            margin-left:300px;
+            background:#6cc417;
+            height: 200px;
+            width:200px;
+            font-family: "Roboto-Light";
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+       
+        .kotakhijau img{
+            display: block;
+            margin:auto;
+            
+        }
+        .kotakhijau:hover{
+            background: #46810f;
+        }
+.kotakbiru{
+    margin-top: -200px;
+    margin-left: 800px;
+    background-color: #81d8d0;
+    height: 200px;
+            width:200px;
+            font-family: "Roboto-Light";
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+}
+.kotakbiru img{
+            display: block;
+            margin:auto;
+}
+.kotakbiru:hover{
+    background:#4d817c;
+}
+/* side button */
+.sidebtn {
+    position:absolute;
+    top:300px;
+    left:600px;
+    margin-top: 5px;
+    background-color: #f67710;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.dropside{
+    position:relative;
+    display: inline-block;
+}
+.dropside-right{
+    display: none;
+    position: absolute;
+    top:0px;
+    right:70px;
+    background-color: #10f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    width:10px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Light";
+    text-align:center;
+    border-radius:10px;
+    box-sizing: 0 1px 5px 0px rgba(0, 0, 0, 0.596);
+}
+.dropside-left{
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 70px;
+    width: 100px;
+    height: 20px;
+    background-color: #df2b2b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Light";
+    text-align:center;
+    border-radius:10px;
+    box-sizing: 0 1px 5px 0px rgba(0, 0, 0, 0.596);
+}
+.dropside-left:hover {
+    background-color: #b32323;
+}
+.dropside-right:hover{
+    background-color: #0cacac;
+}
+
+.dropside:hover .sidebtn{
+    background-color: #bb5b0d;
+    box-sizing: 0 1px 5px 0px rgba(0, 0, 0, 0.596);
+}
+.dropside:hover .dropside-right,
+.dropside:hover .dropside-left{
+    display: block;
+}
+/* button back */
+.btnback {
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      padding: 3px;
+      text-decoration: none;
+      background: #43D1AF;
+      border-radius: 20px;
+      height: 20px;
+      width: 70px;
+      box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .btnback:hover {
+      background: rgb(53, 167, 140);
+    }
+
+    .btnback:focus {
+      background: rgb(36, 112, 94);
+    }
+        /*design form komen*/
+.formsty{
+    font: 95% "Roboto-Light";
+	max-width: 400px;
+	margin: 100px auto;
+	padding: 16px;
+    background: #F7F7F7;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.formsty input[type="text"]{
+     font-family: "Roboto-Light";
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            outline: none;
+            display: block;
+            border: none;
+            width: 300px;
+            background: transparent;
+            border-bottom: 1px solid rgba(51, 51, 51,0.4);
+            height:50px;
+}
+.formsty input[type="submit"] {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            width: 100px;
+            margin: 4%;
+            padding: 3%;
+            background: #43D1AF;
+            border-bottom: 2px solid #30C29E;
+            border-top-style: none;
+            border-right-style: none;
+            border-left-style: none;
+            color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0.1px 30px 0px rgba(51, 51, 51, 0.445);
+        height:50px;
+        }
+.formsty input[type="text"]:focus{
+    box-shadow: 0 0.1px 30px 0px rgba(51, 51, 51, 0.345);
+    background-color: rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgb(34, 133, 108);
+}
+.formsty input[type="submit"]:hover{
+    box-shadow: 0 0.1px 30px 0px rgba(51, 51, 51, 0.345);
+    background: #2EBC99;
+}
+/*design tabel*/
+.tabdes table{
+    font: 95% "Roboto-Light";
+	width: 60%;
+	margin: 100px auto;
+	padding: 16px;
+    background: #F7F7F7;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    
+    }
+    .tabdes th{
+        text-align: center;
+        height: 40px;
+        background:rgba(51, 51, 51,0.1);
+    }
+    .tabdes td{
+        border-bottom: 1px solid rgba(51, 51, 51,0.4);
+        text-align: center;
+        height: 40px;
+    }
