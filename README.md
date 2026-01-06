@@ -9,4 +9,4 @@ Fitur sebagai admin: <br />
 -Melihat komentar
 
 
-![image alt] (https://github.com/ahfadzjelliut/SurveyApp/blob/main/screenshot/Screenshot%202026-01-06%20121209.png)
+![image alt](https://github.com/ahfadzjelliut/SurveyApp/blob/main/screenshot/Screenshot%202026-01-06%20121209.png)
